@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h2>TO-DO APP</h2>
+        <h4>"Don't forget anything now!"</h4>
+        <div class="head">
+            <form id="new-task">
+                <input type="text" id="title_add" placeholder="TITLE">
+                <input type="text" id="new-task-add" placeholder="Add your task here...">
+                <input type="submit" id="new-task-submit" value="Add task">
+            </form>
+        </div>
+    </header>
+    <main>
+        <div class="main_content">
+            <div class="title_list">
+                <h2 style="color: white; text-align: center;padding-top: 1rem;padding-bottom: 2rem;">Title</h2>
+                <div id="titles">
+                    <!--<div class="title">
+                    <div class="title_content">
+                        <input type="text" class="title_text" value="Title" readonly>
+                    </div>
+                </div>-->
+                </div>
+            </div>
+            <section class="task-list">
+                <h2 style="color: white; text-align: center;padding-bottom: 2rem;">Tasks</h2>
+                <div id="tasks">
+                    <!--<div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="My task goes here" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="Edit">Edit</button>
+                        <button class="Delete">Delete</button>
+                    </div>
+                </div>-->
+                </div>
+            </section>
+        </div>
+    </main>
+    <script src="sandbox.js"></script>
+</body>
+
+</html>
